@@ -4,7 +4,7 @@ My First Linux Module
 
 # Usage
 
-```
+```bash
 #  cat /dev/echo.dev 
 [*] Hello from Kernel!
 #  cat /dev/echo.dev
