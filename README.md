@@ -5,15 +5,15 @@ My First Linux Module
 # Usage
 
 ```bash
-#  cat /dev/echo.dev 
+[root]$ cat /dev/echo.dev 
 [*] Hello from Kernel!
-#  cat /dev/echo.dev
+[root]$ cat /dev/echo.dev
 [*] Hello from Kernel!
-#  echo -e "Message-1\nMessage-2" > /dev/echo.dev 
-#  cat /dev/echo.dev                              
+[root]$ echo -e "Message-1\nMessage-2" > /dev/echo.dev 
+[root]$ cat /dev/echo.dev                              
 Message-1
 Message-2
-#  cat /dev/echo.dev
+[root]$ cat /dev/echo.dev
 Message-1
 Message-2
 ```
