@@ -13,7 +13,7 @@ MODULE_AUTHOR("x0r19x91");
 MODULE_VERSION("1.0");
 MODULE_LICENSE("GPL");
 
-int major, open_count, once;
+int major, open_count;
 
 static int device_open(struct inode *, struct file *);
 static int device_close(struct inode *, struct file *);
@@ -24,7 +24,6 @@ static char msg[] = "[*] Hello from Kernel!\n";
 static struct class* dev_class;
 static struct device* dev;
 static char buffer[0x1000];
-char is_buffer_empty;
 
 static struct file_operations fops = {
     .owner = THIS_MODULE,
