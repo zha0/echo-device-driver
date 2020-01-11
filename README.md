@@ -2,7 +2,7 @@
 My First Linux Module
 
 
-# Usage
+## Usage
 
 ```bash
 [root]$ cat /dev/echo.dev 
